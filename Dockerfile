@@ -7,6 +7,6 @@ RUN pip install Flask
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 8080
 
 CMD [ "python3", "./Web.py" ]
